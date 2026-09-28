@@ -22,3 +22,81 @@
     <li><a href="/contact">Get in touch</a></li>
   </ul>
 </nav>
+<form name="site-search" action="/search" method="get" role="search">
+  <label for="query">Find your perfect pizza</label>
+  <input type="search" id="query" name="query" />
+</form>
+<section>
+  <h2>Our pizzas</h2>
+  <ul>
+    <li>Margherita with pineapple</li>
+    <li>Veggie with pineapple</li>
+    <li>Meaty with pineapple</li>
+  </ul>
+</section>
+<section aria-labelledby="our-pizzas-heading">
+  <h2 id="our-pizzas-heading">Our pizzas</h2>
+  <p>
+    All our pizzas come with the best pizza topping in the world. Pineapple!
+  </p>
+  <ul>
+    <li>Margherita with pineapple</li>
+    <li>Veggie with pineapple</li>
+    <li>Meaty with pineapple</li>
+  </ul>
+</section>
+<aside aria-labelledby="pizza-recipe-heading">
+  <h3 id="pizza-recipe-heading">Make your own pie!</h3>
+  <p>Below is a list of our favorite pizza recipes.</p>
+  <ul>
+    <li><a href="/mushroom-pizza">The shroom</a></li>
+    <li><a href="/smokey-joe">Smokey Joe</a></li>
+    <li><a href="/fromage">Fromage</a></li>
+  </ul>
+</aside>
+
+<div class="newsletter">
+  <h3>Subscribe to Mr. Pineapple's newsletter</h3>
+  <p>
+    In our newsletter, you can expect even more wonderful pizza recipes, all
+    featuring the versatile pineapple.
+  </p>
+  <form name="newsletter" action="/subscribe" type="post">
+    <label for="email">Please provide your email address</label>
+    <input type="email" id="email" name="email" />
+
+    <button type="submit">Pineapple Me 🍍</button>
+  </form>
+</div>
+
+<div class="newsletter">
+  <h3 id="newsletter-subscribe-form-heading">
+    Subscribe to Mr. Pineapple's newsletter
+  </h3>
+  <p>
+    In our newsletter, you can expect even more wonderful pizza recipes, all
+    featuring the versatile pineapple.
+  </p>
+  <form
+    aria-labelledby="newsletter-subscribe-form-heading"
+    name="newsletter"
+    action="/subscribe"
+    type="post">
+    <label for="email">Please provide your email address</label>
+    <input type="email" id="email" name="email" />
+
+    <button type="submit">Pineapple Me 🍍</button>
+  </form>
+</div>
+
+<footer>
+  <p>Copyright &copy; Mr. Pineapple's Pizzeria - 2023</p>
+</footer>
+
+<search>
+  <form name="site-search" action="/search" method="get" role="search">
+    <label for="query">Find your perfect pizza</label>
+    <input type="search" id="query" name="query" />
+  </form>
+</search>
+
